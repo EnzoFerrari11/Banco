@@ -1,0 +1,9 @@
+Los comandos utilizados fueron.
+git clone https://github.com/Pedroottaviano/Banco
+git checkout -b feature/Banco-01
+git add .
+git commit -m primero
+git checkout master
+git merge feature/Banco-01
+git add remote origin https://github.com/EnzoFerrari11/Banco.git
+git push origin master
